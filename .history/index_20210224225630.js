@@ -3,8 +3,7 @@ function receivesAFunction (callback){
 }
 
 function returnsANamedFunction(){
-    function namedFunction(){
-        console.log("Hi")
+    return function namedFunction(){
     }
 }
 
